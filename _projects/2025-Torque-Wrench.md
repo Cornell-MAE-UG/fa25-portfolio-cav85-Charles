@@ -3,7 +3,7 @@ layout: project
 title: Torque Wrench  
 description: Choosing design for torque wrench
 technologies: [Matlab, ANSYS, Fusion 360]
-images: /assets/images/full_wrench.png
+image: /assets/images/full_wrench.png
 ---
 
 Torque wrench design project for mechanics of engineering materials class(MAE 3270). We were given a base design and had were tasked with modifying the design to meet the design requirements: a factor of safety against yielding or brittle failure of 4, a factor of safety against fracture of 2 with an assumed crack length of 0.04 inches, and a factor of safety against fatigue stress with cyclic loading of 1.5. Below is a overview of the design in CAD and the results from a finite element analysis of the design.
