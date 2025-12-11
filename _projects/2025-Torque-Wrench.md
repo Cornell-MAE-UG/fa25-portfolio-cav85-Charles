@@ -9,7 +9,7 @@ images: /assets/images/full_wrench.png
 Torque wrench design project for mechanics of engineering materials class(MAE 3270). We were given a base design and had were tasked with modifying the design to meet the design requirements: a factor of safety against yielding or brittle failure of 4, a factor of safety against fracture of 2 with an assumed crack length of 0.04 inches, and a factor of safety against fatigue stress with cyclic loading of 1.5. Below is a overview of the design in CAD and the results from a finite element analysis of the design.
 
 <figure style="text-align: center;">
-  <img src="/fa25-portfolio-cav85-Charles/assets/crossSectionDimensions.png" width="200">
+  <img src="/fa25-portfolio-cav85-Charles/assets/images/crossSectionDimensions.png" width="200">
   <figcaption><b>Figure 1:</b> Cross section dimension for torque wrench handle. The width (h) is 0.45 inches and the height(b) is 0.5 inches.</figcaption>
 </figure>
 
