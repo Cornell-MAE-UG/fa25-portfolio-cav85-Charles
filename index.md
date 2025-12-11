@@ -5,9 +5,10 @@ title: Charles Valembrun
 
 ## About Me
 
-<img src="fa25-portfolio-cav85-Charles/assets/images/new-profile-pic.jpeg"
+<img src="fa25-portfolio-cav85-Charles/assets/images/profile-pic.jpg"
      alt="Profile Picture"
      class="profile-image">
+
 
 
 
