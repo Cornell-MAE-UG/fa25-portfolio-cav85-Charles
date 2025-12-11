@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Charles Valembrun - Portfolio
+title: <Charles Valembrun> - Portfolio
 permalink: /projects/
 ---
 

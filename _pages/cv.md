@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Charles Valembrun - Curriculum Vitae
+title: <Charles Valembrun> - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
