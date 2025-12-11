@@ -5,7 +5,7 @@ title: Charles Valembrun
 
 ## About Me
 
-<img src="https://cornell-mae-ug.github.io/fa25-portfolio-cav85-Charles/assets/images/new-profile-pic.jpeg"
+<img src="fa25-portfolio-cav85-Charles/assets/images/new-profile-pic.jpeg"
      alt="Profile Picture"
      class="profile-image">
 
