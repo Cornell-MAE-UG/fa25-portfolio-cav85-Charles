@@ -2,7 +2,7 @@
 layout: project
 title: Torque Wrench  
 description: Choosing design for torque wrench
-technologies: [Matlab, ANSYS, CES database]
+technologies: [Matlab, ANSYS, Fusion 360]
 images: /assets/images/XY-plane cross sectional area dimensions.png, /assets/images/Drive_Geometry_Dimensions.png, /assets/images/handle_length.png, /assets/images/wrench_boundary_conditions.png, /assets/images/strain__zoomed_out.png, /assets/images/strain__drive.png, /assets/images/principal_stresses_full.png, /assets/images/principal_stresses_drive_2.png, /assets/images/normal_stress_contours.png, /assets/images/wrench_deflection.png, /assets/images/strain_gauge_reading.png, /assets/images/strain_gauge_location.png
 ---
 
