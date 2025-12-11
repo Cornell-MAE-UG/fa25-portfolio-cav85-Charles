@@ -3,84 +3,72 @@ layout: project
 title: Torque Wrench  
 description: Choosing design for torque wrench
 technologies: [Matlab, ANSYS, Fusion 360]
-images: /assets/images/Full_wrench.png
+images: /assets/images/full_wrench.png
 ---
 
 Torque wrench design project for mechanics of engineering materials class(MAE 3270). We were given a base design and had were tasked with modifying the design to meet the design requirements: a factor of safety against yielding or brittle failure of 4, a factor of safety against fracture of 2 with an assumed crack length of 0.04 inches, and a factor of safety against fatigue stress with cyclic loading of 1.5. Below is a overview of the design in CAD and the results from a finite element analysis of the design.
 
-![Cross section Dimensions](<assets/images/XY-plane cross sectional area dimensions.png>)
 <figure style="text-align: center;">
-  <img src="assets/images/XY-plane cross sectional area dimensions.png" width="200">
+  <img src="/fa25-portfolio-cav85-Charles/assets/crossSectionDimensions.png" width="200">
   <figcaption><b>Figure 1:</b> Cross section dimension for torque wrench handle. The width (h) is 0.45 inches and the height(b) is 0.5 inches.</figcaption>
 </figure>
 
-![Drive Dimensions](<assets/images/Drive_Geometry_Dimensions.png>)
 <figure style="text-align: center;">
-  <img src="assets/images/Drive_Geometry_Dimensions.png" width="200">
+  <img src="/fa25-portfolio-cav85-Charles/assets/images/Drive_Geometry_Dimensions.png" width="200">
   <figcaption><b>Figure 2:</b> Drive dimensions for torque wrench. Center of drive is 1 inch from the end of the handle. For the drive to be centered on the handle, the drive's edge must be 0.038 inches from the side of the handle.</figcaption>
 </figure>
 
-![Handle Length](<assets/images/handle_length.png>)
 <figure style="text-align: center;">
-  <img src="assets/images/handle_length.png" width="200">
+  <img src="/fa25-portfolio-cav85-Charles/assets/images/handle_length.png" width="200">
   <figcaption><b>Figure 3:</b> Total length of handle is distance between tip where load is applied and center of drive(20 inches) plus distance between center of drive and end of handle(1 inch).</figcaption>
 </figure> 
 
 The material I chose for the torque wrench was "Press Hardening Steel, 22MnB5, austenized & H20 quenched, uncoated." The young's modulus of the material was 29 Msi while the poisson's ratio for the material is 0.29.The yield strength is 144 Ksi while the tensile strength of the is 218 Ksi. The fracture toughness of the material is 111 ksi*sqrt(in) and the fatigue strength of was 79 ksi. The material was more ductile than brittle so I used von mises yield criterion for calculating the factor of safety on the normal stress. I chose this material due to its high fracture toughness. On my iterations of the analysis of the base design, which used M42 steel, I noticed that the requirement that was most limiting was the fracture factor of safety. This lead me to look for materials that have both a high yield strength to young's modulus ratio and high fracture toughness to young's modulus ratio. The biggest downside of the material was its larger amount of elongation compared to more brittle matierals. 
 
-![wrench_boundary_conditions](<assets/images/wrench_boundary_conditions.png>)
 <figure style="text-align: center;">
-  <img src="assets/images/wrench_boundary_conditions.png" width="200">
+  <img src="/fa25-portfolio-cav85-Charles/assets/images/wrench_boundary_conditions.png" width="200">
   <figcaption><b>Figure 4:</b> Shows the loading and boundary conditions used for FEM analysis.</figcaption>
 </figure> 
 
-![Normal Strain Contours zoomed out](<assets/images/strain__zoomed_out.png>)
 <figure style="text-align: center;">
-  <img src="assets/images/strain__zoomed_out.png" width="200">
+  <img src="/fa25-portfolio-cav85-Charles/assets/images/strain__zoomed_out.png" width="200">
   <figcaption><b>Figure 5:</b> Strain contours of whole wrench.</figcaption>
 </figure> 
 
-![Normal Strain Contours Drive](<assets/images/strain__drive.png>)
 <figure style="text-align: center;">
-  <img src="assets/images/strain__drive.png" width="200">
+  <img src="/fa25-portfolio-cav85-Charles/assets/images/strain__drive.png" width="200">
   <figcaption><b>Figure 6:</b> Strain contours at interface between drive and handle.</figcaption>
 </figure> 
 
-![Max Principal stress Contours](<assets/images/principal_stresses_full.png>)
 <figure style="text-align: center;">
-  <img src="assets/images/principal_stresses_full.png" width="200">
+  <img src="/fa25-portfolio-cav85-Charles/assets/images/principal_stresses_full.png" width="200">
   <figcaption><b>Figure 7:</b> Maximum principal stress contours along wrench.</figcaption>
 </figure> 
 
-![Max Principal stress Contours for drive](<assets/images/principal_stresses_drive_2.png>)
 <figure style="text-align: center;">
-  <img src="assets/images/principal_stresses_drive_2.png" width="200">
+  <img src="/fa25-portfolio-cav85-Charles/assets/images/principal_stresses_drive_2.png" width="200">
   <figcaption><b>Figure 8:</b> Maximum principal stress contours at interface between drive and handle.</figcaption>
 </figure> 
 
 The maximum normal stress in the torque wrench is approximately 78.3 Ksi. If we approximate that the only principal stress is 78.23 Ksi, then the von mises stress would be equal to 78.3 Ksi. This give a von mises factor against ductile yielding of 1.84 which does not make the requirement for the factor of safety. If we use the maximum von mises stress calculated through FEM, then the factor of safety would be on the order of 10^-4. The maximum deflection of the beam was recorded to be 0.79 inches, which is significant relative to the total length of the beam(deflection/Length = 3.76%). The strain gauge was a distance of 0.75 inches away from the drive center and measured a strain of 1,180.6 microstrain.
 
-![Normal Stress Contour](<assets/images/normal_stress_contours.png>)
 <figure style="text-align: center;">
-  <img src="assets/images/normal_stress_contours.png" width="200">
+  <img src="/fa25-portfolio-cav85-Charles/assets/images/normal_stress_contours.png" width="200">
   <figcaption><b>Figure 9:</b> Normal stress contours for torque wrench.</figcaption>
 </figure> 
 
-![Deflectiom Visualization](<assets/images/wrench_deflection.png>)
 <figure style="text-align: center;">
-  <img src="assets/images/wrench_deflection.png" width="200">
+  <img src="/fa25-portfolio-cav85-Charles/assets/images/wrench_deflection.png" width="200">
   <figcaption><b>Figure 10:</b> Deflection along handle given loading analysis in FEM.</figcaption>
 </figure> 
 
-![Strain Gauge Reading](<assets/images/strain_gauge_reading.png>)
 <figure style="text-align: center;">
-  <img src="assets/images/strain_gauge_reading.png" width="200">
+  <img src="/fa25-portfolio-cav85-Charles/assets/images/strain_gauge_reading.png" width="200">
   <figcaption><b>Figure 11:</b> Strain gauge reading for given location on handle relative to drive.</figcaption>
 </figure> 
 
-![Strain Gauge Location](<assets/images/strain_gauge_location.png>)
 <figure style="text-align: center;">
-  <img src="assets/images/strain_gauge_location.png" width="200">
+  <img src="/fa25-portfolio-cav85-Charles/assets/images/strain_gauge_location.png" width="200">
   <figcaption><b>Figure 12:</b> Location of strain gauge along wrench handle.</figcaption>
 </figure> 
 
