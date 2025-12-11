@@ -1,50 +1,50 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Charles Valembrun - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my CV](<{{ "/assets/CV.pdf" | relative_url }}>) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [cav85@cornell.edu](mailto:cav85@cornell.edu) | | | **Phone:** +1 5164065907
 
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+Aspiring engineering student with a strong foundation in simulations and data anlysis. Passionate about aerospace applications, particularly space craft dynamics and eager to apply my knowledge in real-world applications.
 
 ---
 
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  GPA: 3.8/4.0 | Graduation: May, 2027
 
-- **[High School Name]**  
+- **[MidWood Highschool]**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: [June, 2023]
 
 ---
 
 #### Skills
-- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS  
-- **Programming:** Python, MATLAB  
+- **Software:** Autodesk Fusion 360, SolidWorks, ANSYS, LabOne  
+- **Programming:** Python, MATLAB, Java, Ocaml  
 - **Tools:** 3D Printing, Laser Cutting  
 
 ---
 
 #### Projects
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **[Filtering Audio]**:  
+  *[Used low-pass filter to filter noise in audio files]*  
+  - reduced noise by 90% 
+  - characterized time constant  
 
-- **[Project Title]**:  
-  *[Short Description]*  
-  - Key Achievement 1  
-  - Key Achievement 2  
+- **[Torque Wrench]**:  
+  *[Designed torque wrench with maximum torque of 600 in-lbf]*  
+  - designed wrench to meet design requirements with hand calculations  
+  - ran an FEM analysis on design using developed CAD model  
 
 ---
 
