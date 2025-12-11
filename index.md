@@ -6,7 +6,7 @@ title: Charles Valembrun
 ## About Me
 
 
-![Profile Picture](<{{ "assets/images/new-profile-pic.jpeg" | relative_url }}>){: class="profile-image"}
+![Profile Picture]({{ "assets/images/new-profile-pic.jpeg" | relative_url }}){: class="profile-image"}
 
  
 My website is {{ <site.Charles> }}, and I am an undergraduate studying mechanical and aerospace engineering at Cornell Univisersity. I'm particularly interested in propulsion of aircraft and spacecraft as well as dynamical analysis of aerospace vehicles. 
