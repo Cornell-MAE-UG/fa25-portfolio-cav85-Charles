@@ -6,7 +6,7 @@ title: Charles Valembrun
 ## About Me
 
 
-![Profile Picture]({{ "/assets/images/new-profile-pic.jpeg" | relative_url }}){: class="profile-image"}
+![Profile Picture]({{ "assets/images/profile-pic.jpg" | relative_url }}){: class="profile-image"}
 
 
  
