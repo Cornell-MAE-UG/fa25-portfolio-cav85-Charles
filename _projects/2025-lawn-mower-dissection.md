@@ -18,10 +18,9 @@ For the final project of our introductory fluid mechanics class (MAE 3230), grou
   <figcaption><b>Figure 2:</b> Piston cylinder of lawn mower engine.</figcaption>
 </figure>
 
-Within the engine, our group found several useful fluid mechanical components such as fuel lines(pipes) that store transport fuel, inlet and outlet butterfly valves that respond due to pressure, a carburetor, a centrifugal blower that cools engine and a spark plug. We focused our analysis down to the carburetor since we thought it was the fluid mechanical component that was the most interesting to analyze. We created a video overviewing our analysis which can be found through this link here: https://www.youtube.com/watch?v=4YU2uvIFEm8. Our analysis involved taking measurements of carburetor dimensions to analyze the pressure vacuum that draws in fuel into the carburetor to create air-fuel mixture for the combustion chamber. 
+Within the engine, our group found several useful fluid mechanical components such as fuel lines(pipes) that store transport fuel, inlet and outlet butterfly valves that respond due to pressure, a carburetor, a centrifugal blower that cools engine and a spark plug. We focused our analysis down to the carburetor since we thought it was the fluid mechanical component that was the most interesting to analyze. We created a video overviewing our analysis which can be found through this link here:[Link text](https://www.youtube.com/watch?v=4YU2uvIFEm8). Our analysis involved taking measurements of carburetor dimensions to analyze the pressure vacuum that draws in fuel into the carburetor to create air-fuel mixture for the combustion chamber. 
 
 <figure style="text-align: center;">
   <img src="/fa25-portfolio-cav85-Charles/assets/images/carburetor-measure.jpeg" width="200">
   <figcaption><b>Figure 3:</b> Measuring engine carburetor inlet dimensions.</figcaption>
 </figure>
-
