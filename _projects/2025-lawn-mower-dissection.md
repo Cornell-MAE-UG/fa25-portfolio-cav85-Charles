@@ -24,3 +24,5 @@ Within the engine, our group found several useful fluid mechanical components su
   <img src="/fa25-portfolio-cav85-Charles/assets/images/carburetor-measure.jpeg" width="200">
   <figcaption><b>Figure 3:</b> Measuring engine carburetor inlet dimensions.</figcaption>
 </figure>
+
+I assisted in the dissection by detaching the engine from the lawn mower and helping to take off the filter cage. For the analysis of the carburetor, I took measurements for key parts of the carubretor, which includes: throttle valve diameter, choke valve side lengths and venturi diameter. These dimensions were usesd to estimate the area at different sections of the carburetor's venturi which was important for analysis of the pressure drop inside the carburetor. My contribution to the video presentation was explaining the roll of the carburetor and outlining important equations and assumptions for our analysis of the carburetor as a fluid mechanical device. 
