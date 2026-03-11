@@ -10,7 +10,7 @@ The 3rd problem set of our heat transfer class focused on heat transfer analysis
 
 Attached below is a link to my work on the problem set.
 
-<a href="/fa25-portfolio-cav85-Charles/assets/files/.pdf" target="_blank">
+<a href="/fa25-portfolio-cav85-Charles/assets/files/Mae3240_ pset3.pdf" target="_blank">
 Download the full report (PDF)
 </a>
 
